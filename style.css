@@ -1,0 +1,43 @@
+/* Please define your custom styles here */
+
+#hide_submit {
+  display: none;
+}
+
+span {
+  background-color: black;
+}
+
+.text_screen {
+  font-size: 25px;
+}
+
+.mask_text {
+  font-size: 20px;
+}
+
+.small_text_screen, .text_screen {
+  text-align: justify;
+  text-align-last: center;
+
+}
+
+.form, .form input, .form select, .form textarea {
+  width: 500px;
+}
+.form {
+  text-align: left;
+  margin-top: 30px;
+}
+
+.form button {
+  display: block;
+  width: 300px;
+  margin: auto;
+}
+
+button[type=submit] {
+  margin: auto;
+  width: 300px;
+  cursor: pointer;
+}
