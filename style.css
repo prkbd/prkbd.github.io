@@ -3,6 +3,14 @@
 #hide_submit {
   display: none;
 }
+.to_question {
+  position: fixed;
+  margin:auto;
+  bottom: 50px;
+  left: 0;
+  right: 0;
+  cursor: pointer;
+}
 
 span {
   background-color: black;
@@ -40,4 +48,16 @@ button[type=submit] {
   margin: auto;
   width: 300px;
   cursor: pointer;
+}
+
+.range_label {
+  display: flex;
+  justify-content: space-between;
+  height: 10px;
+}
+
+.minus:before { 
+  content: "-"; 
+  font-family: FontAwesome;
+  margin-left: -6px;
 }
